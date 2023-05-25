@@ -175,11 +175,11 @@ tr {
 }
 
 .fb-comments-comment-actions .icon-like:before {
-  background-image: url("assets/css/like");
+  background-image: url("assets/css/like.SVG");
 }
 
 .fb-comments-comment-actions .icon-heart:before {
-  background-image: url("assets/css/heart-solid");
+  background-image: url("assets/css/heart-solid.SVG");
 }
 
 .fb-comments-comment-actions .icon-like,
