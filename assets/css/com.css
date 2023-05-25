@@ -130,6 +130,34 @@ tr {
   text-decoration: underline;
 }
 
+/* Estilos para os ícones */
+.fa {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-size: inherit;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos para o ícone de curtidas */
+.icon-like:before {
+  content: "\f164";
+}
+
+/* Estilos para o ícone de compartilhar */
+.icon-share:before {
+  content: "\f1e0";
+}
+
+/* Estilos adicionais para os ícones */
+.comentarios .acoes .fa {
+  margin-right: 5px;
+}
+
+
 .fb-comments-comment-actions likes {
   font-size: 13px;
   background: url(https://cloudcode.site/likes.png);
