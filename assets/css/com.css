@@ -131,30 +131,12 @@ tr {
 }
 
 /* Estilos para os ícones */
-.fa {
-  display: inline-block;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-style: normal;
-  font-size: inherit;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Estilos para o ícone de curtidas */
-.icon-like:before {
+.fb-comments-comment-actions .icon-like:before {
   content: "\f164";
 }
 
-/* Estilos para o ícone de compartilhar */
-.icon-share:before {
-  content: "\f1e0";
-}
-
-/* Estilos adicionais para os ícones */
-.comentarios .acoes .fa {
-  margin-right: 5px;
+.fb-comments-comment-actions .icon-heart:before {
+  content: "\f004";
 }
 
 
@@ -172,6 +154,42 @@ tr {
   border: solid #eaebef;
   border-radius: 19px;
 }
+
+/* Estilos para os ícones */
+.fb-comments-comment-actions .icon-like:before {
+  content: "\f164";
+}
+
+.fb-comments-comment-actions .icon-heart:before {
+  content: "\f004";
+}
+
+.fb-comments-comment-actions .icon-like:before,
+.fb-comments-comment-actions .icon-heart:before {
+  font-family: "Font Awesome";
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.fb-comments-comment-actions .icon-like:before {
+  background-image: url("assets/css/like.png");
+}
+
+.fb-comments-comment-actions .icon-heart:before {
+  background-image: url("assets/css/heart-solid.png");
+}
+
+.fb-comments-comment-actions .icon-like,
+.fb-comments-comment-actions .icon-heart {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
 
 .fb-comments-comment-actions date {
   font-size: 0.75em;
