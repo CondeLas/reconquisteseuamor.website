@@ -130,24 +130,6 @@ tr {
   text-decoration: underline;
 }
 
-/* Estilos para os ícones */
-.fb-comments-comment-actions .icon-like:before {
-  content: "\f164";
-}
-
-.fb-comments-comment-actions .icon-heart:before {
-  content: "\f004";
-}
-
-/* Estilos para os ícones */
-.fb-comments-comment-actions .icon-like:before {
-  content: "\f164";
-}
-
-.fb-comments-comment-actions .icon-heart:before {
-  content: "\f004";
-}
-
 .fb-comments-comment-actions .icon-like:before,
 .fb-comments-comment-actions .icon-heart:before {
   font-family: "Font Awesome";
@@ -157,23 +139,6 @@ tr {
   margin-right: 5px;
   vertical-align: middle;
 }
-
-.fb-comments-comment-actions .icon-like:before {
-  background-image: url("assets/css/like.SVG");
-}
-
-.fb-comments-comment-actions .icon-heart:before {
-  background-image: url("assets/css/heart-solid.SVG");
-}
-
-.fb-comments-comment-actions .icon-like,
-.fb-comments-comment-actions .icon-heart {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-size: cover;
-}
-
 
 .fb-comments-comment-actions date {
   font-size: 0.75em;
